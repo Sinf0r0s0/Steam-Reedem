@@ -25,6 +25,12 @@ To make the login process easier you should **turn off SteamGuard**:
 * requests
 * Pycryptodome
 
+**Installation:**
+
+    pip install git+git://github.com/Sinf0r0s0/Steam-Reedem.git
+    or
+    pip install --upgrade https://github.com/Sinf0r0s0/Steam-Reedem/tarball/master
+
 
 **exemple**:
 
