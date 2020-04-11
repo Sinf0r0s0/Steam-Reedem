@@ -47,7 +47,6 @@ class Steamreedem(object):
                 "rsatimestamp": timestamp,
             }
             resp = self.s.post(self.URL_LOGIN, data=data, timeout=10).json()['success']
-            # print(resp)
             if resp:
                 self.is_logged = True
                 with open('cookie.session', 'wb') as fb:
