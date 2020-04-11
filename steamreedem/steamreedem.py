@@ -44,10 +44,7 @@ class Steamreedem(object):
             data = {
                 'username': self.username,
                 "password": kout,
-                # "loginfriendlyname": "python-steam webauth",
                 "rsatimestamp": timestamp,
-                # "remember_login": 'true',
-                # "donotcache": int(time() * 100000),
             }
             resp = self.s.post(self.URL_LOGIN, data=data, timeout=10).json()['success']
             # print(resp)
